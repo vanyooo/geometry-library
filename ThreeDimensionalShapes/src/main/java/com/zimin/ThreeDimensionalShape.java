@@ -1,0 +1,8 @@
+package com.zimin;
+
+public interface ThreeDimensionalShape {
+
+    double getVolume();
+
+    double getSurfaceArea();
+}

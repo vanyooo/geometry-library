@@ -12,6 +12,7 @@
   <modules>
     <module>GeometryUtil</module>
     <module>GeometryCore</module>
+    <module>ThreeDimensionalShapes</module>
   </modules>
 
   <properties>
