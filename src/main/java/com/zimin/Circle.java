@@ -18,4 +18,10 @@ public class Circle implements Shape {
         return Math.PI * radius;
     }
 
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                '}';
+    }
 }

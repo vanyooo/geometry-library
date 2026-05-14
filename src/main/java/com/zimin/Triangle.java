@@ -25,4 +25,13 @@ public class Triangle implements Shape {
                 p * (p - a) * (p - b) * (p - c)
         );
     }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
+    }
 }

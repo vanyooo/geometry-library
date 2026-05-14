@@ -20,4 +20,11 @@ public class Rectangle implements Shape {
         return 2 * (width + height);
     }
 
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "width=" + width +
+                ", height=" + height +
+                '}';
+    }
 }
