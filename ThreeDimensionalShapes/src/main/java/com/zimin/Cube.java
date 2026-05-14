@@ -17,4 +17,11 @@ public class Cube implements ThreeDimensionalShape {
     public double getSurfaceArea() {
         return 6 * side * side;
     }
+
+    @Override
+    public String toString() {
+        return "Cube{" +
+                "side=" + side +
+                '}';
+    }
 }
